@@ -25,6 +25,10 @@ label {
 input {
     border-radius: 1rem !important;
     height: 10vh;
+    box-shadow: none !important;
+}
+input:focus{
+ border: 3px solid pink !important;
 }
 
 #checkbox {
@@ -69,16 +73,30 @@ p {
     position: absolute;
 
 }
+#para2{
+    margin-top: 3%;
+}
 
+  #defaultCheck1:checked{
+    background-color: pink;
+  }
 video {
     position: relative;
 
 }
-@media (max-width:375px){
+@media (max-width:414px){
    #para{
     width: 100%;
    }
    #checkdata{
     font-size: 10px;
-   }
+ }
+ #div1{
+    height: 0px;
+    width: 0px;
+ }
+ #para2{
+    font-size: 10px;
+ }
+ 
 }
