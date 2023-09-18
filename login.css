@@ -1,0 +1,75 @@
+#formdiv {
+
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 30px 60px 0px;
+}
+
+#div1 {
+    height: auto;
+}
+
+h3 {
+    font: bolder "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+}
+
+label {
+    font: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+input {
+    border-radius: 1rem !important;
+    height: 10vh;
+}
+
+#checkbox {
+    margin-top: 5%;
+}
+
+#submitbtn {
+    color: #e7e7e9;
+    background-color: #0d0c22;
+    width: 100%;
+    border-radius: 25px;
+
+    height: 8vh;
+}
+
+p {
+    font-size: 14px;
+}
+
+#para {
+    margin-left: 8rem;
+
+}
+
+p {
+    font-size: 1rem;
+}
+
+#link {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: white;
+}
+
+#svg {
+    display: inline-block;
+    z-index: 9;
+    margin: 5%;
+    color: #e7e7e9;
+    position: absolute;
+
+}
+
+video {
+    position: relative;
+
+}
